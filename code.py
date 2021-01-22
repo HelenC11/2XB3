@@ -1,4 +1,4 @@
-
+#defining are_valid_groups
 def are_valid_groups(nums, groups):
     for group in groups:
         if len(group) > 3 or len(group) < 2:
