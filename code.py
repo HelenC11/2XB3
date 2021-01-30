@@ -9,10 +9,13 @@ def timetestAppends(runs, n):
         total = 0
         for i in range(runs):
             start = timeit.default_timer()
-            numberList.append(j)
+            numberList.append(1)
             end = timeit.default_timer()
             total += end - start
         #print(j, total/runs)
         outF.write(str(j) + "," + str(total/runs) + "\n")
     outF.close()
+
+
+
 
